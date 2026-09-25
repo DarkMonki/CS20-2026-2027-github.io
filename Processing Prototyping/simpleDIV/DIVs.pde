@@ -7,10 +7,10 @@ void divs() {
   //Note: even-odd for width-height
   float paperWidth = 279;
   float paperHeight = 216;
-  divs[0] = appWidth * 70 / paperWidth;
-  divs[1] = appHeight * 54 / paperHeight;
-  divs[2] = appWidth * 134 / paperWidth;
-  divs[3] = appHeight * 102 / paperHeight;
+  divs[0] = appWidth * 40 / paperWidth;
+  divs[1] = appHeight * 160 / paperHeight;
+  divs[2] = appWidth * 25 / paperWidth;
+  divs[3] = appHeight * 20 / paperHeight;
   //rectDIV(divs[0], divs[1], divs[2], divs[3]);
   //
   for ( int i=0; i<divs.length; i+=4 ) {
