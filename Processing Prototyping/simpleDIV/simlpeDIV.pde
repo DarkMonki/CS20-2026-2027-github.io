@@ -8,7 +8,6 @@ void setup() {
   fullScreen();
   appWidth = displayWidth; //Best Practice
   appHeight = displayHeight;
-  //
   divs();
   //
 }//End Setup
