@@ -11,9 +11,9 @@ void divs() {
   
   // First DIV
   divs[0] = appWidth * 57 / paperWidth;
-  divs[1] = appHeight * 30 / paperHeight;
+  divs[1] = appHeight * 33 / paperHeight;
   divs[2] = appWidth * 160 / paperWidth;
-  divs[3] = appHeight * 140 / paperHeight;
+  divs[3] = appHeight * 130 / paperHeight;
   
   // Second DIV
   divs[4] = appWidth * 10 / paperWidth;
@@ -23,7 +23,7 @@ void divs() {
 
   // Third DIV
   divs[8]  = appWidth * 247 / paperWidth;
-  divs[9]  = appHeight * 20 / paperHeight; 
+  divs[9]  = appHeight * 15 / paperHeight; 
   divs[10] = appWidth * 22 / paperWidth;
   divs[11] = appHeight * 24 / paperHeight;
 
