@@ -6,26 +6,26 @@ float[] divs = new float[numberOfDIVs * numberOfParameters];
 
 void divs() {
   //
-  float paperWidth = 279;
-  float paperHeight = 216;
+  float paperWidth = 279.0;
+  float paperHeight = 216.0;
   
   // First DIV
-  divs[0] = appWidth* 1/4 ;
-  divs[1] = appHeight* 1/5 ;
-  divs[2] = appWidth* 1/2 ;
-  divs[3] = appHeight* 1/2 ;
+  divs[0] = appWidth * 1/4 ;
+  divs[1] = appHeight * 1/5 ;
+  divs[2] = appWidth * 1/2 ;
+  divs[3] = appHeight * 1/2 ;
   
   // Second DIV
   divs[4] = appWidth * 0.1 / paperWidth;
-  divs[5] = appHeight * 201 / paperHeight;
+  divs[5] = appHeight * 199 / paperHeight;
   divs[6] = appWidth * 14 / paperWidth;
-  divs[7] = appHeight * 15 / paperHeight;
+  divs[7] = appWidth * 14 / paperWidth;
 
   // Third DIV
-  divs[8]  = appWidth * 265 / paperWidth;
-  divs[9]  = appHeight * 15 / paperHeight; 
-  divs[10] = appWidth * 14 / paperWidth;
-  divs[11] = appHeight * 15 / paperHeight;
+  divs[8]  = appWidth * 264 / paperWidth;
+  divs[9]  = appHeight * 0.1 / paperHeight; 
+  divs[10] = appWidth * 15 / paperWidth;
+  divs[11] = appWidth * 15 / paperWidth;
 
   //
   for (int i=0; i<divs.length; i+=4) {

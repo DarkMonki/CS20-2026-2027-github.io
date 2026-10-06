@@ -1,24 +1,25 @@
+//Library - Minim
 //
-//Global Vaqriables
+//Global Variables
 int appWidth, appHeight;
 //
 void setup() {
-  println(displayWidth, displayHeight);
-  //size(600, 400); //width, height
-  fullScreen();
-  appWidth = displayWidth; //Best Practice
+  //println(displayWidth, displayHeight); //Inspection of Variables
+  //size(700, 500); //width //height //700, 500
+  fullScreen(); //displayWidth //displayHeight
+  appWidth = displayWidth;
   appHeight = displayHeight;
-  divs();
   //
-}//End Setup
+  divs();
+} //End setup
 //
 void draw() {
-}//End Draw
+} //End draw
 //
 void mousePressed() {
-}//End Mouse Pressed
+} //End Mouse Pressed
 //
 void keyPressed() {
-}//End Key Pressed
+} //End Key Pressed
 //
 //End MAIN Program
